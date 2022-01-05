@@ -16,6 +16,7 @@ public class JpaMemberRepository implements MemberRepository {
 
     @Override
     public Member save(Member member) {
+        //JPA가 알아서 insert문과 객체에 set해줌
         em.persist(member);
         return member;
     }
@@ -28,6 +29,7 @@ public class JpaMemberRepository implements MemberRepository {
 
     @Override
     public Optional<Member> findByName(String name) {
+        //객체를 대상으로 쿼리를 던지면 알아서 sql문으로 변환
         List<Member> result = em.createQuery("select m from Member m where m.name =:name", Member.class)
                 .setParameter("name", name)
                 .getResultList();
