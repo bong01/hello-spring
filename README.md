@@ -1,9 +1,13 @@
 # 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술
 > 인프런 스프링 입문 강의를 수강하며 실습해보는 저장소입니다.
 
+<br>
+
+강의: https://www.inflearn.com/course/스프링-입문-스프링부트
+
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/46523628/177958567-097331c6-0654-4231-9586-91b1d41db26d.png">
 
-* https://www.inflearn.com/course/스프링-입문-스프링부트
+<br>
 
 | 목차 | 실습 여부 |
 | --- | --- |
